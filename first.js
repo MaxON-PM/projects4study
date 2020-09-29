@@ -34,7 +34,7 @@
 
     (a + b < 4) ? result = 'Мало': result = 'Много';*/
 //day 3
-let login = prompt("Enter your login", '');
+/* Логин-парольlet login = prompt("Enter your login", '');
 
 if (login == 'Admin') {
     let password = prompt('Enter your password', '');
@@ -56,4 +56,26 @@ if (login == 'Admin') {
     alert ('Canceling');
 }else {
     alert ('I don`t know who you are, bitch');
+}*/
+/*let sum = 5;
+
+while (true) {
+
+  let value = +prompt("Введите число", '');
+
+  if (!value) break; // (*)
+
+  sum += value;
+
 }
+alert( 'Сумма: ' + sum );*/
+
+let num; 
+
+do {
+num = prompt ('Ввидите число больше 100', 0);
+}while (num <= 100 && num);
+
+
+
+    
