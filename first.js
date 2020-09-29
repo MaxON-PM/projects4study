@@ -20,7 +20,7 @@
     }else {
         alert ("you are stupid")
     }*/
-var number = prompt ("Enter any numbet please", "");
+/*var number = prompt ("Enter any numbet please", "");
     if (number > 0){
         alert ("Плюсовое число то")
     }
@@ -32,5 +32,28 @@ var number = prompt ("Enter any numbet please", "");
     }
     let result;
 
-    (a + b < 4) ? result = 'Мало': result = 'Много';
+    (a + b < 4) ? result = 'Мало': result = 'Много';*/
+//day 3
+let login = prompt("Enter your login", '');
 
+if (login == 'Admin') {
+    let password = prompt('Enter your password', '');
+    
+    if (password == 'passw0rd') {
+       
+        alert ('Welcome');
+    
+    }else if (password == '' || password == null){
+       
+        alert ('Canceled');
+    
+    }else {
+        
+        alert ('Wrong password');
+    
+    }
+}else if (login == null || login == '') {
+    alert ('Canceling');
+}else {
+    alert ('I don`t know who you are, bitch');
+}
