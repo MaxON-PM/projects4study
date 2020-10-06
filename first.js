@@ -70,12 +70,97 @@ while (true) {
 }
 alert( 'Сумма: ' + sum );*/
 
-let num; 
+/*let num; 
 
 do {
 num = prompt ('Ввидите число больше 100', 0);
-}while (num <= 100 && num);
+}while (num <= 100 && num);*/
+//lesson 4 (October 1)
 
 
 
-    
+
+/*function calc(a, b) {
+    let result = a;
+
+    for (let d = 1; d < b; d++){
+        result *= a;
+    }
+    return result;    
+}
+let a = prompt('enter A', '');
+let b = prompt('Enter B', '');
+
+if (b < 1){
+    alert('No result for ${b}')
+}else {
+    alert ( calc(a, b) )
+}
+*/
+//October 2 
+/*function ask (qestion, nn, bb) {
+    if (confirm(qestion)) nn()
+    else bb ();
+}
+ask (
+    'Are you agree?',
+    function() { alert ('Ok let`s go'); },
+    function() { alert ('Newer mind'); }
+    ); */
+//October 4 
+/*let user = {
+    name: "Max",
+    age: "32",
+    surname: "Vozhakov"
+};
+for (let key in user){
+alert( key );
+alert( user[key] );
+}
+
+let me = { myName: "Adward"};
+let you = me;
+you.myName = "Ihor";
+alert (me.myName);*/
+/*let user = { name: "Maxxx" };
+
+let permissions1 = { canView: true };
+let permissions2 = { canEdit: true };
+
+Object.assign(user, permissions1, permissions2);
+
+let clone = Object.assign({}, user);
+for (let key in clone) {
+alert( key ); 
+alert( clone[key] );
+}*/
+//tasks
+
+/*let user = {};
+user.name = "John";
+user.surname = "Smith";
+user.name = "Pete";
+delete user.name;
+//функция проверки не пустой ли объект
+function isEmpty(obj) {
+    for (let key in obj) {
+        return false;
+    }
+return true;
+}
+//считаем сумму зарплат и проверяем не пустой ли объект
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+  };
+  
+  let sum = 0;
+  for (let key in salaries) {
+    sum += salaries[key];
+  }
+  
+  alert(sum); // 390*/
+  //october 6 
+  
+  
